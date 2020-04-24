@@ -1,0 +1,224 @@
+C:\Users\LENOVO\Documents\GitHub\PROGJAR_05111740000154\venv\Scripts\python.exe C:/Users/LENOVO/Documents/GitHub/PROGJAR_05111740000154/tugas8/server_thread_http.py
+WARNING:root:connection from ('127.0.0.1', 64414)
+WARNING:root:data dari client: GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+WARNING:root:balas ke  client: HTTP/1.0 200 OK
+Date: Fri Apr 24 14:25:30 2020
+Connection: close
+Server: myserver/1.0
+Content-Length: 148
+Content-type:text/html
+
+<form method="post">
+    <input type="text" name="kirim" value="isilah" accept-charset="ISO-8859-1">
+    <input type="submit" value="kirim">
+</form>
+
+
+GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+['']
+close
+WARNING:root:connection from ('127.0.0.1', 64417)
+WARNING:root:data dari client: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:10002/sending.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+WARNING:root:balas ke  client: HTTP/1.0 404 Not Found
+Date: Fri Apr 24 14:25:31 2020
+Connection: close
+Server: myserver/1.0
+Content-Length: 0
+
+
+
+
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:10002/sending.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+['']
+close
+WARNING:root:connection from ('127.0.0.1', 64415)
+WARNING:root:data dari client: GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: empty
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+WARNING:root:balas ke  client: HTTP/1.0 200 OK
+Date: Fri Apr 24 14:25:31 2020
+Connection: close
+Server: myserver/1.0
+Content-Length: 148
+Content-type:text/html
+
+<form method="post">
+    <input type="text" name="kirim" value="isilah" accept-charset="ISO-8859-1">
+    <input type="submit" value="kirim">
+</form>
+
+
+GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: empty
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+['']
+close
+WARNING:root:connection from ('127.0.0.1', 64438)
+WARNING:root:data dari client: POST /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+Content-Length: 13
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:10002
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Referer: http://127.0.0.1:10002/sending.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+kirim=progjar
+WARNING:root:balas ke  client: HTTP/1.0 200 OK
+Date: Fri Apr 24 14:27:49 2020
+Connection: close
+Server: myserver/1.0
+Content-Length: 16
+Content-type:text/html
+
+<h1>progjar</h1>
+
+
+POST /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+Content-Length: 13
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:10002
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Referer: http://127.0.0.1:10002/sending.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+kirim=progjar
+['kirim', 'progjar']
+close
+WARNING:root:connection from ('127.0.0.1', 64439)
+WARNING:root:data dari client: GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: empty
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+WARNING:root:balas ke  client: HTTP/1.0 200 OK
+Date: Fri Apr 24 14:27:50 2020
+Connection: close
+Server: myserver/1.0
+Content-Length: 148
+Content-type:text/html
+
+<form method="post">
+    <input type="text" name="kirim" value="isilah" accept-charset="ISO-8859-1">
+    <input type="submit" value="kirim">
+</form>
+
+
+GET /sending.html HTTP/1.1
+Host: 127.0.0.1:10002
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 OPR/67.0.3575.137 (Edition utorrent)
+Sec-Fetch-Dest: empty
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: localauth=localapi38fc15f629d82119:
+
+
+['']
+close
