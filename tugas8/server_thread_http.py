@@ -17,17 +17,25 @@ class ProcessTheClient(threading.Thread):
 
 	def run(self):
 		rcv=""
-		data = self.connection.recv(10000)
-		d = data.decode()
-		rcv=rcv+d
-		print(rcv)
-		logging.warning("data dari client: {}".format(rcv))
-		hasil = httpserver.proses(rcv)
-		hasil = hasil + "\r\n\r\n"
-		logging.warning("balas ke  client: {}".format(hasil))
-		self.connection.sendall(hasil.encode())
+		while True:
+			try:
+				data = self.connection.recv(1024)
+				if data:
+					d = data.decode()
+					rcv=rcv+d
+					#end of command, proses string
+					logging.warning("data dari client: {}" . format(rcv))
+					hasil = httpserver.proses(rcv)
+					hasil=hasil+"\r\n\r\n"
+					logging.warning("balas ke  client: {}" . format(hasil))
+					self.connection.sendall(hasil.encode())
+					rcv=""
+					self.connection.close()
+				else:
+					break
+			except OSError as e:
+				pass
 		self.connection.close()
-		print("close")
 
 
 
@@ -57,4 +65,3 @@ def main():
 
 if __name__=="__main__":
 	main()
-
