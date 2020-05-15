@@ -4,7 +4,6 @@ import uuid
 from glob import glob
 from datetime import datetime
 
-
 class HttpServer:
     def __init__(self):
         self.sessions = {}
